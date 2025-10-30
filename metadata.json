@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Asistente de Innovación Docente",
+  "description": "Un asistente virtual para docentes, impulsado por la Universidad de León, especializado en innovación educativa y evaluación.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

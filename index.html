@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asistente de Innovación Docente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^9.0.0",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.0"
+  }
+}
+</script>
+<style>
+.markdown-content p { margin-bottom: 0.75em; }
+.markdown-content p:last-child { margin-bottom: 0; }
+.markdown-content h1, .markdown-content h2, .markdown-content h3 { margin-top: 0.5em; margin-bottom: 0.25em; font-weight: bold; }
+.markdown-content ul, .markdown-content ol { padding-left: 1.5em; margin-bottom: 0.75em; }
+.markdown-content li { margin-bottom: 0.25em; }
+.markdown-content a { color: #67e8f9; text-decoration: underline; }
+.markdown-content code { background-color: #334155; padding: 2px 5px; border-radius: 4px; font-family: monospace; font-size: 0.9em; }
+.markdown-content pre { background-color: #1e293b; padding: 0.75em; border-radius: 8px; overflow-x: auto; }
+.markdown-content pre code { background-color: transparent; padding: 0; }
+.markdown-content blockquote { border-left: 3px solid #475569; padding-left: 1em; margin-left: 0; color: #94a3b8; }
+.bg-cyan-600.markdown-content a { color: #ecfeff; font-weight: bold; }
+</style>
+</head>
+<body class="bg-slate-900 text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
